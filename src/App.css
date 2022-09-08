@@ -2,37 +2,60 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+@font-face {
+  font-family: 'forest-font';
+  src: url(Fonts/CfOneTwoTreesRegular-4LGp.ttf);
+  font-style: normal;
+  font-weight: 100;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+@font-face {
+  font-family: 'forest-font2';
+  src: url(Fonts/Jfwildwood-ldYZ.ttf);
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+@font-face {
+  font-family: 'forest-font3';
+  src: url(Fonts/CfArbreRegular-vaGO.ttf);
+}
+
+@font-face {
+  font-family: 'bea';
+  src: url(Fonts/BeautifulPeoplePersonalUse-dE0g.ttf);
+}
+
+body {
+  background: url("https://www.eea.europa.eu/highlights/eight-facts-about-europe2019s-forest-ecosystems/image_panoramic")no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.navbar {
+  background-color: rgb(34, 8, 8);
+  overflow: hidden;
+  position: fixed;
+  bottom: 0;
+  width: 100vw;
+}
+
+.navbar li {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  justify-content: space-evenly;
+  width:23vw;
+  float:left;
+  color: #f2f2f2;
+} 
+
+.nav-link{
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  text-decoration: none;
+  padding: 14px 14px;
+  font-size: 20px;
+  font-family: 'forest-font2'
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
