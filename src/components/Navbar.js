@@ -1,33 +1,33 @@
 import React from "react";
-import { Nav, Navbar, Container, Row, Col } from "react-bootstrap";
+// import { Nav, Navbar, Container, Row, Col } from "react-bootstrap";
 import "bootstrap/dist/css/bootstrap.min.css";
+import { Link } from "react-router-dom";
 
 const NavigationBar = () => {
   return (
     
       <nav class="navbar fixed-bottom">
         <ul class="page-nav">
-          <Row>
-            
+          
               <li id="bio-nav2">
-                <a class="nav-link" href="#">
+                <Link className="nav-link" to="/bio">
                   BIO
-                </a>
+                </Link>
               </li>
             
               <li id="projects2">
-                <a class="nav-link" href="#">
+                <Link className="nav-link" to="/projects">
                   PROJECTS
-                </a>
+                </Link>
               </li>
             
               <li class="github">
-                <a class="nav-link" href="https://github.com/thummel1867">
+                <a className="nav-link" href="https://github.com/thummel1867">
                   GITHUB
                 </a>
               </li>
             
-              <li class="linkedin">
+              <li className="linkedin">
                 <a
                   class="nav-link"
                   href="https://www.linkedin.com/in/thomas-hummel-776980189/"
@@ -35,7 +35,6 @@ const NavigationBar = () => {
                   LINKEDIN
                 </a>
               </li>
-          </Row>
         </ul>
       </nav>
   );

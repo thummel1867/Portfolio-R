@@ -1,5 +1,4 @@
 import "./App.css";
-import { Nav, Navbar, Container, NavDropdown } from "react-bootstrap";
 import "bootstrap/dist/css/bootstrap.min.css";
 import NavigationBar from "./components/Navbar";
 import { Routes, Route, Link } from "react-router-dom";

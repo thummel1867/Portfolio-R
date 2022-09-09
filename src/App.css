@@ -3,29 +3,30 @@
 }
 
 @font-face {
-  font-family: 'forest-font';
+  font-family: "forest-font";
   src: url(Fonts/CfOneTwoTreesRegular-4LGp.ttf);
   font-style: normal;
   font-weight: 100;
 }
 
 @font-face {
-  font-family: 'forest-font2';
+  font-family: "forest-font2";
   src: url(Fonts/Jfwildwood-ldYZ.ttf);
 }
 
 @font-face {
-  font-family: 'forest-font3';
+  font-family: "forest-font3";
   src: url(Fonts/CfArbreRegular-vaGO.ttf);
 }
 
 @font-face {
-  font-family: 'bea';
+  font-family: "bea";
   src: url(Fonts/BeautifulPeoplePersonalUse-dE0g.ttf);
 }
 
 body {
-  background: url("https://www.eea.europa.eu/highlights/eight-facts-about-europe2019s-forest-ecosystems/image_panoramic")no-repeat center center fixed; 
+  background: url("https://www.eea.europa.eu/highlights/eight-facts-about-europe2019s-forest-ecosystems/image_panoramic")
+    no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -43,12 +44,18 @@ body {
 .navbar li {
   display: flex;
   justify-content: space-evenly;
-  width:23vw;
-  float:left;
+  width: 23vw;
+  float: left;
   color: #f2f2f2;
-} 
+}
 
-.nav-link{
+.navbar li:hover {
+  color: #228c22;
+  text-decoration: underline overline;
+  transform: scale(1.1);
+}
+
+.nav-link {
   float: left;
   display: block;
   color: #f2f2f2;
@@ -56,6 +63,73 @@ body {
   text-decoration: none;
   padding: 14px 14px;
   font-size: 20px;
-  font-family: 'forest-font2'
+  font-family: "forest-font2";
 }
 
+.intro-page {
+  text-align: center;
+  padding: 200px 0;
+}
+
+.intro-h1 {
+  color: white;
+  font-family: "forest-font";
+  font-size: 15vh;
+  cursor: pointer;
+}
+
+a:hover {
+  color: #228C22;
+  text-decoration: underline overline;
+  transform: scale(1.1);
+}
+
+.page-header {
+  text-align: center;
+  margin-top: 3vh;
+  margin-bottom: 3vh;
+}
+
+.headerh2 {
+  font-family: 'forest-font2';
+  font-size: 3vh;
+  color: white;
+  text-decoration: none;
+}
+
+.bio-photo{
+  border-radius: 25px;
+  height: 65vh;
+}
+
+.bio-content{
+  color: white;
+  margin-bottom: 6vh;
+  margin: auto;
+  font-family: 'Roboto Slab', serif;
+  background-color: #482e02b6;
+  border-radius: 25px;
+  height: 65vh;
+}
+
+.bio-page{
+  text-align: center;
+}
+
+.bio-p{
+  padding-left: 2vw;
+  padding-right: 2vw;
+}
+
+.bio-div{
+  padding: 4vh;
+}
+
+.bio-name-link{
+  text-decoration: none;
+  color: white;
+}
+
+.bio-name-link:hover{
+  color: #228C22;
+}
