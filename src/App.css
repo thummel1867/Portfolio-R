@@ -79,7 +79,7 @@ body {
 }
 
 a:hover {
-  color: #228C22;
+  color: #228c22;
   text-decoration: underline overline;
   transform: scale(1.1);
 }
@@ -91,62 +91,89 @@ a:hover {
 }
 
 .headerh2 {
-  font-family: 'forest-font2';
+  font-family: "forest-font2";
   font-size: 3vh;
   color: white;
   text-decoration: none;
 }
 
-.bio-photo{
+.bio-photo {
   border-radius: 25px;
   height: 65vh;
 }
 
-.bio-content{
+.bio-content {
   color: white;
   margin-bottom: 6vh;
   margin: auto;
-  font-family: 'Roboto Slab', serif;
+  font-family: "Roboto Slab", serif;
   background-color: #322002e6;
   border-radius: 25px;
   height: 65vh;
 }
 
-.bio-page{
+.bio-page {
   text-align: center;
 }
 
-.bio-p{
+.bio-p {
   padding-left: 2vw;
   padding-right: 2vw;
 }
 
-.bio-div{
+.bio-div {
   padding: 4vh;
 }
 
-.bio-name-link{
+.bio-name-link {
   text-decoration: none;
   color: white;
 }
 
-.bio-name-link:hover{
-  color: #228C22;
+.bio-name-link:hover {
+  color: #228c22;
 }
 
-.animate{
+.animate {
   color: white;
-  font-family: 'forest-font2';
+  font-family: "forest-font2";
   font-size: 8vh;
   text-align: center;
 }
 
-.projects-photo{
-  max-width: 45vw;
-  border-radius: 25px
+.projects-photo {
+  max-height: 20vw;
+  border-radius: 25px;
+  display: flex;
+  max-width: 40vw;
 }
 
-.scroll-container{
+.scroll-container {
   text-align: center;
   margin: auto;
+}
+
+.feathers-div {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.projects-content {
+  background-color: #322002e6;
+  border-radius: 25px;
+  padding: 2vh;
+  width: 40vw;
+  max-height: 20vw;
+}
+
+.projects-p{
+  padding-top: 4vh;
+  font-family: "Roboto Slab", serif;
+  color: white;
+}
+
+.projects-name-link {
+  text-decoration: none;
+  color: white;
+  font-size: 10vh;
 }
