@@ -99,17 +99,19 @@ a:hover {
 
 .bio-photo {
   border-radius: 25px;
-  height: 65vh;
+  max-height: 65vh;
+  margin-top: 3vh;
+  margin-bottom: 3vh;
 }
 
 .bio-content {
   color: white;
-  margin-bottom: 6vh;
+  /* margin-bottom: 15vh; */
   margin: auto;
   font-family: "Roboto Slab", serif;
   background-color: #322002e6;
   border-radius: 25px;
-  height: 65vh;
+  /* height: 65vh; */
 }
 
 .bio-page {
@@ -123,6 +125,7 @@ a:hover {
 
 .bio-div {
   padding: 4vh;
+  margin-bottom: 2vh;
 }
 
 .bio-name-link {
@@ -142,10 +145,9 @@ a:hover {
 }
 
 .projects-photo {
-  max-height: 20vw;
+  max-width: 50vw;
   border-radius: 25px;
-  display: flex;
-  max-width: 40vw;
+  margin: auto;
 }
 
 .scroll-container {
@@ -153,27 +155,61 @@ a:hover {
   margin: auto;
 }
 
-.feathers-div {
-  display: flex;
-  justify-content: space-evenly;
-}
-
 .projects-content {
   background-color: #322002e6;
-  border-radius: 25px;
-  padding: 2vh;
-  width: 40vw;
-  max-height: 20vw;
-}
+  width: 75vw;
+  margin: auto;
+  border-radius: 200px;
+  /* max-height: 20vw; */
+  margin-bottom: 15vh;
+  padding: 4vh;
+  padding-bottom: 6vh;
+} 
 
 .projects-p{
-  padding-top: 4vh;
+  padding-top: 2vh;
   font-family: "Roboto Slab", serif;
   color: white;
+  padding-left: 15vw;
+  padding-right: 15vw;
 }
 
 .projects-name-link {
   text-decoration: none;
   color: white;
-  font-size: 10vh;
+  font-size: 6vh;
+}
+
+.projects-name-link:hover{
+  color: #228c22;
+}
+
+.project-img-div{
+  text-align: center;
+  /* margin: auto; */
+  margin-bottom: 2vh;
+  /* max-width: 40vw;
+  max-height: 40vh; */
+}
+
+.d-block{
+  max-width: 80vw;
+  max-height: 40vh;
+  margin: auto;
+  text-align: center;
+  border-radius: 25px;
+}
+
+.carousel{
+  width: 70vw;
+  margin: auto;
+}
+
+.here{
+  color: #228c22; 
+}
+
+.here:hover{
+  color: #228c22;
+  text-decoration: underline; 
 }

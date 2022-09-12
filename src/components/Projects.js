@@ -1,30 +1,23 @@
 import React from "react";
-import {
-  ScrollContainer,
-  ScrollPage,
-  Animator,
-  Move,
-  Sticky,
-  FadeIn,
-  ZoomInScrollOut,
-  Zoom,
-  batch,
-  Fade,
-  MoveOut,
-  ZoomIn,
-  StickyIn,
-} from "react-scroll-motion";
-import logo from "../Photos/feathers.png";
+import logo from "../Photos/feathers1.png";
+import logo2 from "../Photos/feathers2.png";
+import logo3 from "../Photos/feathers3.png";
+import logo4 from "../Photos/feathers4.png";
 import MovingComponent from "react-moving-text";
 import { Link } from "react-router-dom";
-import { Container, Row, Col } from "react-bootstrap";
+import Carousel from "react-bootstrap/Carousel";
+import logo5 from "../Photos/ee1.png";
+import logo6 from "../Photos/ee4.png";
+import logo7 from "../Photos/ee2.png";
+import logo8 from "../Photos/ee3.png";
+import logo9 from "../Photos/hikr1.png";
+import logo10 from "../Photos/hikr2.png";
+import logo11 from "../Photos/hikr3.png";
+import logo12 from "../Photos/hikr4.png";
 
 const Projects = () => {
-  const ZoomInScrollOut = batch(StickyIn(), FadeIn(), ZoomIn());
-  const FadeUp = batch(Fade(), Sticky(), Move());
-
   return (
-    <div className="page-header">
+    <div className="bio-page">
       <MovingComponent
         className="headerh2"
         type="fadeInFromTop"
@@ -35,53 +28,104 @@ const Projects = () => {
         iteration="1"
         fillMode="none"
       >
-        <Link className="projects-name-link" to="/">Thomas Hummel</Link>
+        <Link className="projects-name-link" to="/">
+          Thomas Hummel
+        </Link>
       </MovingComponent>
-
       <br></br>
+      <div className="projects-content">
+        <h4 className="headerh2">Emissions Electric</h4>
+        <Carousel className="carousel" fade>
+          <Carousel.Item className="project-img-div">
+            <img className="d-block" src={logo5} alt="First slide" />
+          </Carousel.Item>
+          <Carousel.Item className="project-img-div">
+            <img className="d-block" src={logo6} alt="Second slide" />
+          </Carousel.Item>
+          <Carousel.Item className="project-img-div">
+            <img className="d-block" src={logo7} alt="Third slide" />
+          </Carousel.Item>
+          <Carousel.Item className="project-img-div">
+            <img className="d-block" src={logo8} alt="Fourth slide" />
+          </Carousel.Item>
+        </Carousel>
 
-      <ScrollContainer className="scroll-container">
-        <MovingComponent
-          // className="bio-content"
-          type="fadeInFromBottom"
-          duration="1000ms"
-          delay="0s"
-          direction="normal"
-          timing="ease-in"
-          iteration="1"
-          fillMode="none"
-        >
-          <ScrollPage page={0}>
-            <Animator animation={batch(Sticky(), Fade(), MoveOut(0, -200))}>
-              <h2 className="animate">Feathers</h2>
-              <div className="feathers-div">
-                <img className="projects-photo" src={logo} alt="feathers" />
-                <div className="projects-content">
-                  <p className="projects-p">
-                    This app allows for birdwatchers to discover information
-                    about birds, track birds they have seen and are searching
-                    for, and add new birds to the database.
-                    <br></br>
-                    <br></br>
-                    It is a full-stack Django application.
-                  </p>
-                </div>
-              </div>
-            </Animator>
-          </ScrollPage>
-        </MovingComponent>
-
-        <ScrollPage page={1}>
-          <Animator animation={ZoomInScrollOut}>
-            <h2 className="animate">I am a Martian</h2>
-          </Animator>
-        </ScrollPage>
-        <ScrollPage page={2}>
-          <Animator animation={FadeUp}>
-            <h2 className="animate">Fade Up, Dude!</h2>
-          </Animator>
-        </ScrollPage>
-      </ScrollContainer>
+        <p className="projects-p">
+          This website allows users to compare the carbon emissions associated
+          with different forms of electricity generation within a variety of
+          countries. Due to the uneveness between the global north and south
+          both in terms of the availability of data, and more importantly, the
+          level of industrial development, most of the countries listed on the
+          site are countries from the global north.
+          <br></br>
+          <br></br>
+          Emissions Electric is built with a React Front End and an Express.js
+          backend.
+          <br></br>
+          <br></br>
+          Check it out <a className = "here" href="https://emissionselectric.com/">here</a>.
+          <br></br>
+          <br></br>
+        </p>
+        <h4 className="headerh2">Feathers</h4>
+        <Carousel className="carousel" fade>
+          <Carousel.Item className="project-img-div">
+            <img className="d-block" src={logo} alt="First slide" />
+          </Carousel.Item>
+          <Carousel.Item className="project-img-div">
+            <img className="d-block" src={logo2} alt="Second slide" />
+          </Carousel.Item>
+          <Carousel.Item className="project-img-div">
+            <img className="d-block" src={logo3} alt="Third slide" />
+          </Carousel.Item>
+          <Carousel.Item className="project-img-div">
+            <img className="d-block" src={logo4} alt="Fourth slide" />
+          </Carousel.Item>
+        </Carousel>
+        <div>
+          <p className="projects-p">
+            This app allows for birdwatchers to discover information about
+            birds, track birds they have seen and are searching for, and add new
+            birds to the database.
+            <br></br>
+            <br></br>
+            Feathers is a full-stack Django application.
+            <br></br>
+            <br></br>
+            Check it out <a className = "here" href="https://th-bird-app.herokuapp.com/">here</a>.
+            <br></br>
+          <br></br>
+          </p>
+        </div>
+        <h4 className="headerh2">Hikr!</h4>
+        <Carousel className="carousel" fade>
+          <Carousel.Item className="project-img-div">
+            <img className="d-block" src={logo9} alt="First slide" />
+          </Carousel.Item>
+          <Carousel.Item className="project-img-div">
+            <img className="d-block" src={logo10} alt="Second slide" />
+          </Carousel.Item>
+          <Carousel.Item className="project-img-div">
+            <img className="d-block" src={logo11} alt="Third slide" />
+          </Carousel.Item>
+          <Carousel.Item className="project-img-div">
+            <img className="d-block" src={logo12} alt="Fourth slide" />
+          </Carousel.Item>
+        </Carousel>
+        <div>
+          <p className="projects-p">
+            Hikr is an application which allows users to connect with their
+            local enviernment by providing a platform to locate, add, and save
+            hikes in their area.
+            <br></br>
+            <br></br>
+            Hikr is built with a React Front End and an Express.js backend.
+            <br></br>
+            <br></br>
+            Check it out <a className = "here" href="https://chic-tiramisu-4c79ca.netlify.app/">here</a>.
+          </p>
+        </div>
+      </div>
     </div>
   );
 };
