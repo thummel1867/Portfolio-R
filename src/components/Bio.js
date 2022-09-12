@@ -98,7 +98,7 @@ const Bio = () => {
                 </Row>
                 <p className="bio-p">
                   My coding philosophy is modivated by the desire to break down
-                  complex problems and to slowly synthesize them into something
+                  complex problems and synthesize them into something
                   that a user can easily understand and enjoy.
                 </p>
               </div>

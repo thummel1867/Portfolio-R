@@ -107,7 +107,7 @@ a:hover {
   margin-bottom: 6vh;
   margin: auto;
   font-family: 'Roboto Slab', serif;
-  background-color: #482e02b6;
+  background-color: #322002e6;
   border-radius: 25px;
   height: 65vh;
 }
@@ -132,4 +132,21 @@ a:hover {
 
 .bio-name-link:hover{
   color: #228C22;
+}
+
+.animate{
+  color: white;
+  font-family: 'forest-font2';
+  font-size: 8vh;
+  text-align: center;
+}
+
+.projects-photo{
+  max-width: 45vw;
+  border-radius: 25px
+}
+
+.scroll-container{
+  text-align: center;
+  margin: auto;
 }

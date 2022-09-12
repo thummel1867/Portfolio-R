@@ -1,7 +1,7 @@
 import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import NavigationBar from "./components/Navbar";
-import { Routes, Route, Link } from "react-router-dom";
+import { Routes, Route} from "react-router-dom";
 import Bio from "./components/Bio";
 import Projects from "./components/Projects";
 import Home from "./components/Home";
