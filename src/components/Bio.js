@@ -97,7 +97,7 @@ const Bio = () => {
                   </Col>
                 </Row>
                 <p className="bio-p">
-                  My coding philosophy is modivated by the desire to break down
+                  My coding philosophy is motivated by the desire to break down
                   complex problems and synthesize them into something
                   that a user can easily understand and enjoy.
                 </p>
