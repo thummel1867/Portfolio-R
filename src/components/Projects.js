@@ -34,39 +34,6 @@ const Projects = () => {
       </MovingComponent>
       <br></br>
       <div className="projects-content">
-        <h4 className="headerh2">Emissions Electric</h4>
-        <Carousel className="carousel" fade>
-          <Carousel.Item className="project-img-div">
-            <img className="d-block" src={logo5} alt="First slide" />
-          </Carousel.Item>
-          <Carousel.Item className="project-img-div">
-            <img className="d-block" src={logo6} alt="Second slide" />
-          </Carousel.Item>
-          <Carousel.Item className="project-img-div">
-            <img className="d-block" src={logo7} alt="Third slide" />
-          </Carousel.Item>
-          <Carousel.Item className="project-img-div">
-            <img className="d-block" src={logo8} alt="Fourth slide" />
-          </Carousel.Item>
-        </Carousel>
-
-        <p className="projects-p">
-          This website allows users to compare the carbon emissions associated
-          with different forms of electricity generation within a variety of
-          countries. Due to the uneveness between the global north and south
-          both in terms of the availability of data, and more importantly, the
-          level of industrial development, most of the countries listed on the
-          site are countries from the global north.
-          <br></br>
-          <br></br>
-          Emissions Electric is built with a React Front End and an Express.js
-          backend.
-          <br></br>
-          <br></br>
-          Check it out <a className = "here" href="https://emissionselectric.com/">here</a>.
-          <br></br>
-          <br></br>
-        </p>
         <h4 className="headerh2">Feathers</h4>
         <Carousel className="carousel" fade>
           <Carousel.Item className="project-img-div">
@@ -119,11 +86,43 @@ const Projects = () => {
             hikes in their area.
             <br></br>
             <br></br>
-            Hikr is built with a React Front End and an Express.js backend.
+            Hikr is built with a React front-end and an Express.js back-end.
             <br></br>
             <br></br>
             Check it out <a className = "here" href="https://chic-tiramisu-4c79ca.netlify.app/">here</a>.
           </p>
+          <h4 className="headerh2">Emissions Electric</h4>
+        <Carousel className="carousel" fade>
+          <Carousel.Item className="project-img-div">
+            <img className="d-block" src={logo5} alt="First slide" />
+          </Carousel.Item>
+          <Carousel.Item className="project-img-div">
+            <img className="d-block" src={logo6} alt="Second slide" />
+          </Carousel.Item>
+          <Carousel.Item className="project-img-div">
+            <img className="d-block" src={logo7} alt="Third slide" />
+          </Carousel.Item>
+          <Carousel.Item className="project-img-div">
+            <img className="d-block" src={logo8} alt="Fourth slide" />
+          </Carousel.Item>
+        </Carousel>
+
+        <p className="projects-p">
+          This website allows users to compare the carbon emissions associated
+          with different forms of electricity generation within a variety of
+          countries. Due to the uneveness between the global north and south
+          both in terms of the availability of data, and more importantly, the
+          level of industrial development, most of the countries listed on the
+          site are countries from the global north.
+          <br></br>
+          <br></br>
+          Emissions Electric is built with a React front-end in conjunction with data from a third-party API called <a className = "here" href="https://www.climatiq.io/">"Climatiq"</a>. The website is currently in the process of being updated, personalized and expanded with a personally created Express.js back-end. 
+          <br></br>
+          <br></br>
+          Check it out <a className = "here" href="https://emissionselectric.com/">here</a>.
+          <br></br>
+          <br></br>
+        </p>
         </div>
       </div>
     </div>
