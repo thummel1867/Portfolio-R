@@ -213,3 +213,24 @@ a:hover {
   color: #228c22;
   text-decoration: underline; 
 }
+
+@media (max-width: 500px) {
+  .bio-page{
+    width: 100vw;
+    margin: auto;
+    text-align: center;
+  }
+  .bio-photo{
+    width: 80vw;
+  }
+  .bio-div{
+    margin-bottom: 5vh;
+  }
+  .nav-link{
+    width: 100vw;
+    justify-content: center;
+  }
+  .navbar{
+    width: 100vw;
+  }
+}
