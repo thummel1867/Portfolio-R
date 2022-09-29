@@ -46,13 +46,7 @@ body {
   justify-content: space-evenly;
   width: 23vw;
   float: left;
-  color: #f2f2f2;
-}
-
-.navbar li:hover {
-  color: #228c22;
-  text-decoration: underline overline;
-  transform: scale(1.1);
+  color: white;
 }
 
 .nav-link {
@@ -66,6 +60,11 @@ body {
   font-family: "forest-font2";
 }
 
+.navbar li:hover {
+  color: #228c22;
+  text-decoration: underline overline;
+  transform: scale(1.1);
+}
 .intro-page {
   text-align: center;
   padding: 200px 0;
@@ -164,9 +163,9 @@ a:hover {
   margin-bottom: 15vh;
   padding: 4vh;
   padding-bottom: 6vh;
-} 
+}
 
-.projects-p{
+.projects-p {
   padding-top: 2vh;
   font-family: "Roboto Slab", serif;
   color: white;
@@ -180,11 +179,11 @@ a:hover {
   font-size: 6vh;
 }
 
-.projects-name-link:hover{
+.projects-name-link:hover {
   color: #228c22;
 }
 
-.project-img-div{
+.project-img-div {
   text-align: center;
   /* margin: auto; */
   margin-bottom: 2vh;
@@ -192,7 +191,7 @@ a:hover {
   max-height: 40vh; */
 }
 
-.d-block{
+.d-block {
   max-width: 80vw;
   max-height: 40vh;
   margin: auto;
@@ -200,37 +199,57 @@ a:hover {
   border-radius: 25px;
 }
 
-.carousel{
+.carousel {
   width: 70vw;
   margin: auto;
 }
 
-.here{
-  color: #228c22; 
+.here {
+  color: #228c22;
 }
 
-.here:hover{
+.here:hover {
   color: #228c22;
-  text-decoration: underline; 
+  text-decoration: underline;
 }
 
 @media (max-width: 500px) {
-  .bio-page{
+  .bio-page {
     width: 100vw;
     margin: auto;
     text-align: center;
   }
-  .bio-photo{
+  .bio-photo {
     width: 80vw;
   }
-  .bio-div{
-    margin-bottom: 5vh;
+  .bio-div {
+    margin-bottom: 20vh;
+    flex-wrap: wrap;
   }
-  .nav-link{
-    width: 100vw;
+  .intro-page {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  #nav-button {
+    display: none;
+  }
+  .page-nav li {
+    width: 85vw;
     justify-content: center;
   }
-  .navbar{
-    width: 100vw;
+}
+
+@media (max-width: 1000px) {
+  .carousel {
+    max-width:100%;
+    max-height:100%;
+  }
+  .d-block {
+    max-width: 60vw;
+    max-height: 40vh;
+    margin: auto;
+    text-align: center;
+    border-radius: 25px;
   }
 }

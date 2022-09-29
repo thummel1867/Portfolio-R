@@ -86,7 +86,7 @@ const Projects = () => {
             hikes in their area.
             <br></br>
             <br></br>
-            Hikr is built with a React Front End and an Express.js backend.
+            Hikr is built with a React front-end and an Express.js back-end.
             <br></br>
             <br></br>
             Check it out <a className = "here" href="https://chic-tiramisu-4c79ca.netlify.app/">here</a>.
@@ -116,7 +116,7 @@ const Projects = () => {
           site are countries from the global north.
           <br></br>
           <br></br>
-          Emissions Electric is built with a React Front End in conjunction with data from a third-party API called <a className = "here" href="https://www.climatiq.io/">"Climatiq"</a>. It's in the process of being updated, personalized and expanded with an Express.js backend. 
+          Emissions Electric is built with a React front-end in conjunction with data from a third-party API called <a className = "here" href="https://www.climatiq.io/">"Climatiq"</a>. The website is currently in the process of being updated, personalized and expanded with a personally created Express.js back-end. 
           <br></br>
           <br></br>
           Check it out <a className = "here" href="https://emissionselectric.com/">here</a>.
