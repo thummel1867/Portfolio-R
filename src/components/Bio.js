@@ -66,7 +66,7 @@ const Bio = () => {
               <div className="bio-div">
                 <h3>My name is Thomas!</h3>
                 <h5>
-                  I'm a Full-Stack developer with an interest in
+                  I'm an IT Support Technician and Full-Stack developer with an interest in
                   environmentalism living in Queens, New York.
                 </h5>
                 <h5>
