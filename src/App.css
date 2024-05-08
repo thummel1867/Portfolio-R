@@ -104,11 +104,11 @@ a:hover {
 }
 
 .bio-content {
-  color: white;
+  color: rgb(255, 255, 255);
   /* margin-bottom: 15vh; */
   margin: auto;
-  font-family: "Roboto Slab", serif;
-  background-color: #322002e6;
+  font-family: "Montserrat", sans-serif;
+  background-color: #322002;
   border-radius: 25px;
   /* height: 65vh; */
 }
@@ -155,7 +155,7 @@ a:hover {
 }
 
 .projects-content {
-  background-color: #322002e6;
+  background-color: #322002;
   width: 75vw;
   margin: auto;
   border-radius: 200px;
@@ -167,7 +167,7 @@ a:hover {
 
 .projects-p {
   padding-top: 2vh;
-  font-family: "Roboto Slab", serif;
+  font-family: "Montserrat", sans-serif;
   color: white;
   padding-left: 15vw;
   padding-right: 15vw;

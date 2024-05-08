@@ -35,6 +35,7 @@ const Projects = () => {
       <br></br>
       <div className="projects-content">
         <h4 className="headerh2">Feathers</h4>
+        <br></br>
         <Carousel className="carousel" fade>
           <Carousel.Item className="project-img-div">
             <img className="d-block" src={logo} alt="First slide" />
@@ -59,11 +60,11 @@ const Projects = () => {
             Feathers is a full-stack Django application.
             <br></br>
             <br></br>
-            Check it out <a className = "here" href="https://th-bird-app.herokuapp.com/">here</a>.
+            Check it out <a className = "here" href="https://the-birds-application-1543f8cc41d8.herokuapp.com/">here</a>.
             <br></br>
           <br></br>
           </p>
-        </div>
+        {/* </div>
         <h4 className="headerh2">Hikr!</h4>
         <Carousel className="carousel" fade>
           <Carousel.Item className="project-img-div">
@@ -90,8 +91,9 @@ const Projects = () => {
             <br></br>
             <br></br>
             Check it out <a className = "here" href="https://chic-tiramisu-4c79ca.netlify.app/">here</a>.
-          </p>
+          </p> */}
           <h4 className="headerh2">Emissions Electric</h4>
+          <br></br>
         <Carousel className="carousel" fade>
           <Carousel.Item className="project-img-div">
             <img className="d-block" src={logo5} alt="First slide" />
@@ -116,10 +118,10 @@ const Projects = () => {
           site are countries from the global north.
           <br></br>
           <br></br>
-          Emissions Electric is built with a React front-end in conjunction with data from a third-party API called <a className = "here" href="https://www.climatiq.io/">"Climatiq"</a>. The website is currently in the process of being updated, personalized and expanded with a personally created Express.js back-end. 
+          Emissions Electric is built with a React front-end. I built the backend with express.js and that can be found <a className = "here" href="https://github.com/thummel1867/emissions-backend">here</a>. 
           <br></br>
           <br></br>
-          Check it out <a className = "here" href="https://emissionselectric.com/">here</a>.
+          Check out the full emissions website <a className = "here" href="https://emissionselectric-fe54730b4360.herokuapp.com/">here</a>.
           <br></br>
           <br></br>
         </p>
