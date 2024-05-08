@@ -35,6 +35,7 @@ const Projects = () => {
       <br></br>
       <div className="projects-content">
         <h4 className="headerh2">Feathers</h4>
+        <br></br>
         <Carousel className="carousel" fade>
           <Carousel.Item className="project-img-div">
             <img className="d-block" src={logo} alt="First slide" />
@@ -92,6 +93,7 @@ const Projects = () => {
             Check it out <a className = "here" href="https://chic-tiramisu-4c79ca.netlify.app/">here</a>.
           </p> */}
           <h4 className="headerh2">Emissions Electric</h4>
+          <br></br>
         <Carousel className="carousel" fade>
           <Carousel.Item className="project-img-div">
             <img className="d-block" src={logo5} alt="First slide" />
