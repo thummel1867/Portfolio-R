@@ -67,7 +67,7 @@ const Bio = () => {
                 <h3>My name is Thomas!</h3>
                 <h5>
                   I'm an IT Support Technician and Full-Stack developer with an interest in
-                  environmentalism living in Queens, New York.
+                  environmentalism from New York City.
                 </h5>
                 <h5>
                   Here's a short list of what can be found in my coding toolbox:
