@@ -15,7 +15,7 @@ import logo10 from "../Photos/tetris2.png";
 import logo11 from "../Photos/tetris3.png";
 
 
-const ProjectSection = ({ title, images, description, link }) => (
+const ProjectSection = ({ title, images, description, link, additionalLink}) => (
   <div>
     <h4 className="headerh2">{title}</h4>
     <br></br>
@@ -30,6 +30,13 @@ const ProjectSection = ({ title, images, description, link }) => (
       {description}
       <br></br>
       <br></br>
+      {additionalLink && (
+        <>
+          {additionalLink.text} <a className="here" href={additionalLink.url} target="_blank" rel="noopener noreferrer">here</a>.
+          <br></br>
+          <br></br>
+        </>
+      )}
       Check it out <a className="here" href={link} target="_blank" rel="noopener noreferrer">here</a>.
       <br></br>
       <br></br>
@@ -75,7 +82,11 @@ const Projects = () => {
             { src: logo7, alt: "Third slide" },
             { src: logo8, alt: "Fourth slide" },
           ]}
-          description="This website allows users to compare the carbon emissions associated with different forms of electricity generation within a variety of countries. Emissions Electric is built with a React front-end. I built the backend with express.js and that can be found here."
+          description="This website allows users to compare the carbon emissions associated with different forms of electricity generation within a variety of countries. Due to the unevenness between the global north and south both in terms of the availability of data, and more importantly, the level of industrial development, most of the countries listed on the site are countries from the global north. Emissions Electric is built with a React front-end."
+          additionalLink={{
+            text: "I built the backend with express.js and that can be found",
+            url: "https://github.com/thummel1867/emissions-backend"
+          }}
           link="https://emissionselectric-fe54730b4360.herokuapp.com/"
         />
         <ProjectSection
