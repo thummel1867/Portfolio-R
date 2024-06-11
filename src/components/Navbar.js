@@ -22,7 +22,10 @@ const NavigationBar = () => {
               </li>
             
               <li class="github">
-                <a className="nav-link" href="https://github.com/thummel1867">
+                <a className="nav-link" 
+                href="https://github.com/thummel1867" 
+                target="_blank" 
+                rel="noopener noreferrer">
                   GITHUB
                 </a>
               </li>
@@ -31,6 +34,8 @@ const NavigationBar = () => {
                 <a
                   class="nav-link"
                   href="https://www.linkedin.com/in/thomas-hummel-776980189/"
+                  target="_blank" 
+                  rel="noopener noreferrer"
                 >
                   LINKEDIN
                 </a>

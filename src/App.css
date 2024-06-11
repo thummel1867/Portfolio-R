@@ -108,7 +108,7 @@ a:hover {
   /* margin-bottom: 15vh; */
   margin: auto;
   font-family: "Montserrat", sans-serif;
-  background-color: #322002;
+  background-color: rgb(34, 8, 8, 0.9);
   border-radius: 25px;
   /* height: 65vh; */
 }
@@ -155,7 +155,7 @@ a:hover {
 }
 
 .projects-content {
-  background-color: #322002;
+  background-color: rgba(34, 8, 8, 0.9);;
   width: 75vw;
   margin: auto;
   border-radius: 200px;
