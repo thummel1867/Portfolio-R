@@ -87,7 +87,7 @@ const Projects = () => {
             text: "I built the backend with express.js and that can be found",
             url: "https://github.com/thummel1867/emissions-backend"
           }}
-          link="https://emissionselectric-fe54730b4360.herokuapp.com/"
+          link="https://emissionselectric-5e893acb5ca9.herokuapp.com/"
         />
         <ProjectSection
           title="React Tetris"
